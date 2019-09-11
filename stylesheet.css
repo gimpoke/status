@@ -1,0 +1,70 @@
+table {
+  border-collapse: collapse;
+  width: 40%;
+  display: table-header-group;
+}
+td,th {
+  text-align: center;
+  vertical-align: middle;
+  border: 1px solid #333;
+  padding: 0.8em;
+}
+th {
+  background-color: #c0c0c0;
+}
+.selected {
+  background-color: #c0c0c0;
+}
+h4 {
+  color: #ff0000;
+}
+li {
+  font-size: 140%;
+  font-weight: bold;
+  list-style: none;
+}
+h1 {
+  background-color: #24140e;
+  color: #ffffff;
+  font-size: 250%;
+}
+h3 {
+  font-size: 120%;
+}
+h5 {
+  font-size: 120%;
+}
+a {
+  font-size: 200%;
+  font-weight: bold;
+}
+body {
+  font-family: "Avenir Next";
+}
+
+/* headerの背景色を#f7f2b4、高さを90pxにしてください */
+.header {
+  background-color: #191970;
+  height: 100px;
+}
+.header-list li{
+  float: right;
+  padding-bottom: 40px;
+}
+
+/* mainの背景色を#bdf7f1、高さを600pxにしてください */
+.main {
+  background-color: #dcdcdc;
+  height: 2000px;
+}
+
+/* footerの背景色を#ceccf3、高さを270pxにしてください */
+.footer {
+  background-color: #ceccf3;
+  height: 270px;
+}
+.footer-logo {
+  padding-left: 20px;
+  padding-top: 20px;
+  float: right;
+}
